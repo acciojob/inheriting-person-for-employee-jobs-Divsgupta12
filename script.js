@@ -1,13 +1,18 @@
 // complete this js code
 function Person(name, age) {
+	this.name=name;
+	this.age =age;
 	greet(){
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
 	}
 }
 
 function Employee(name, age, jobTitle) {
+	this.name=name;
+	this.age =age;
+	this.jobTitle=jobTitle;
 	jobGreet(){
-		console.log(`Hello, my name is ${thisname}, I am ${this.age} years old, and my job title is ${thisjobTitle}.`)
+		console.log(`Hello, my name is ${thisname}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 	}
 }
 
